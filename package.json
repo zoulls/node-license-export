@@ -1,0 +1,17 @@
+{
+  "name": "node-license-export",
+  "version": "0.0.1",
+  "author": "Julien Ausset",
+  "description": "Export to csv license dependencies",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "license-checker": "4.1.1",
+    "commander": "2.8.1",
+    "json2csv": "2.12.0"
+  },
+  "devDependencies": {},
+  "main": "app.js"
+}
